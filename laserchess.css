@@ -31,12 +31,14 @@ h2 {
 
 h3 {
     text-align: left;
+    text-decoration: underline;
     font-family: "Open Sans",Verdana,Arial,sans-serif;
     color: #272722;
 }
 
 h4 {
     text-align: center;
+    font-style: italic;
     font-family: "Open Sans",Verdana,Arial,sans-serif;
     color: #272722;
 }
