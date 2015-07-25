@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    src: url("http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    text-align: left;
+    font-family: "Open Sans",Verdana,Arial,sans-serif;
+    color: #272722;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Open Sans",Verdana,Arial,sans-serif;
+    color: #272722;
+	text-shadow: 2px 2px #D8D8D4;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Open Sans",Verdana,Arial,sans-serif;
+    color: #272722;
+}
+
+h3 {
+    text-align: left;
+    font-family: "Open Sans",Verdana,Arial,sans-serif;
+    color: #272722;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Open Sans",Verdana,Arial,sans-serif;
+    color: #272722;
+}
+
+#container {
+  width: 850px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+IMG.imgvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+VIDEO.imgvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
