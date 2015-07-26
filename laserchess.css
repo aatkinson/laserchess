@@ -14,7 +14,6 @@ p {
     color: #272722;
 }
 
-
 h1 {
     text-align: center;
     font-size: 3em;
@@ -39,6 +38,12 @@ h3 {
 h4 {
     text-align: center;
     font-style: italic;
+    font-family: "Open Sans",Verdana,Arial,sans-serif;
+    color: #272722;
+}
+
+li {
+    text-align: left;
     font-family: "Open Sans",Verdana,Arial,sans-serif;
     color: #272722;
 }

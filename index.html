@@ -11,33 +11,161 @@
 	    	<h1>CS 488 Final Project - Laser Chess</h1>
 	    	<h4>By Adam Atkinson, 4A BMath - Computer Science @uWaterloo</h4>
 	    	<p> 
-	    		This is page showcases the final project I developed for credit in computer graphics class (CS 488, Spring 2015) at the University of Waterloo. My project is a two-player laser chess game, inspired by <a href="http://www.khet.com/">Khet</a>. I wrote my game for Linux using OpenGL, Qt, and SDL. The source code is available on my GitHub <a href="http://github.com/aatkinson/laserchess">here</a>.
+	    		This is page showcases the final project I developed for credit in computer graphics class (CS 488, Spring 2015) at the University of Waterloo. My project is a two-player laser chess game, inspired by <a href="http://www.khet.com/">Khet</a>. I wrote my game for Linux using OpenGL, Qt, and SDL in less than two weeks at the end of term. The source code is available on my GitHub <a href="http://github.com/aatkinson/laserchess">here</a>. I am hoping to continue development and add more enhancements as I continue to expand my knowledge of OpenGL, Qt, and computer graphics techniques.
 	    	</p>
-
-	    	<h2>Rules</h2>
-	    	<p>Here's how I implemented my objectives</p>
-
-	    	<h2>Gameplay and Controls</h2>
-	    	<p>Here's how I implemented my objectives</p>
-
-	    	<h2>Objectives</h2>
-	    	<p>Here's how I implemented my objectives</p>
-
-	    	<h3>Objective 1: Modelling</h3>
-	    	<h4>"Here's the objective details"</h4>
-	    	<p>Blah blah text</p>
+	    	<p>If you want to see the game in action, click <a href="#jumpToScreencast">here</a> to scroll to the screencast at the bottom of the page</p>
 
 	    	<img class ="imgvid" src="site-media/screenshot01.png" width="640" height="360">
 	    	<br>
 
-	    	<h3>Objective 8: Animation</h3>
-	    	<h4>"Here's the objective details"</h4>
-	    	<p>Blah blah text</p>
+	    	<h2>Rules</h2>
+	    	<p>The goal of the game is to move your reflective pieces so you can 'zap' your opponent's king piece with a laser beam. Players take turns, during with they can move one of their pieces one square left, right, up, or down, or rotate one of their pieces clockwise or counter-clockwise by 90 degrees. After moving a piece, the player must activate their laser to finish their turn. The laser beam bounces off of the reflective surfaces of pieces, and eliminates a piece when it hits a non-reflective surface. </p>
+	    	<p>Each piece has different abilities:
+		    	<ul>
+		    		<li>Pawn (tetrahedron): can reflect a laser in one direction, eliminated when hit on the backside, and can move U/D/L/R and rotate.</li>
+		    		<li>Two-Way (angled wall): can reflect a beam from any direction and can't be eliminated. Can move U/D/L/R and rotate. The two-way piece can also swap with any adjacent piece.</li>
+		    		<li>Blocker (block): blocks a laser from any direction, can't be eliminated, and can move U/D/L/R and rotate.</li>
+		    		<li>Laser (cylinder): cannot be eliminated, emits the laser beam, and can only be rotated such that it shoots a laser across the board.</li>
+		    		<li>King (sphere): cannot reflect any lasers - when it is hit, the game ends. Can move U/D/L/R and rotate.</li>
+		    	</ul>
+	    	</p>
+
+	    	<h2>Gameplay and Controls</h2>
+	    	<p>The game play flows as follows:
+	    		<ol>
+	    			<li>Select a piece: move the yellow highlight to find a piece and press 'Enter' to select the highlighted piece. The piece will turn green if it can be selected.</li>
+	    			<li>Move a piece: translate or rotate the piece. If the move is invalid a message will appear in the satatus box and the game returns to highlight/selection mode.</li>
+	    			<li>Fire your laser: press 'Enter'.</li>
+	    			<li>Turn changes to the next player.</li>
+	    			<li>When a king piece is hit: the 'Game Over' message appears, informing the user of the winner, and allows the user to start a new game.</li>
+	    		</ol>
+ 			</p>
+
+ 	    	<p>The game controls are:
+	    		<ul>
+	    			<li>Camera control: drag cursor while holding 
+	    				<ul>
+							<li>Left mouse button to pan left and right.</li>
+							<li>Right mouse button to tilt up and down. </li>
+							<li>Middle mouse button to zoom in and out.</li>
+	    				</ul>
+	    			</li>
+	    			<li>Use the arrow keys to highlight a piece for selection and translate the selected piece left, right, up, or down.</li>
+	    			<li>Press the 'C' key to rotate the selected piece clockwise.</li>
+	    			<li>Press the 'W' key to rotate the selected piece counter-clockwise.</li>
+	    			<li>Press 'Enter' or 'Return' to select a piece and activate the laser.</li>
+	    		</ul>
+ 			</p>
+
+ 	    	<p>The user can also these toggle modes and help prompts:
+	    		<ul>
+	    			<li>Game Controls and Miscellaneous: 'R' key or 'Help' menu.</li>
+	    			<li>Game Rules:</li>
+	    			<li>New Came: 'N' key or 'Application' menu.</li>
+	    			<li>Quit: 'Ctrl+Q' or 'Esc' key or 'Application' menu.</li>
+	    			<li>Perlin Noise: 'P' key or 'Mode' menu.</li>
+	    			<li>Textures: 'T' key or 'Mode' menu.</li>
+	    			<li>BVH Tree Structure: 'B' key or 'Mode' menu.</li>
+	    		</ul>
+ 			</p>
+	    	<br>
+
+	    	<h2>Objectives</h2>
+	    	<p>I specified 10 objectives to fulfill for my project, of which I completed 8. </p>
+
+
+	    	<h3>Objective 1: Modelling</h3>
+	    	<h4>"Board and game piece elements of the scene are modelled correctly."</h4>
+	    	<p>I modelled the scene using a variety of primitives I implemented myself. I added rotation and translation to game pieves, and implemented the camera transformations to view the scene from different angles and distances.</p>
+
+	    	<img class ="imgvid" src="site-media/screenshot03_obj1_2.png" width="640" height="360">
+	    	<br>
+
+
+	    	<h3>Objective 2: User Interface</h3>
+	    	<h4>"The user can effectively interact with the game pieces and view, and toggle game modes."</h4>
+	    	<p>The user can move game pieces using keys and change the camera view using the mouse. Modes and help prompts can be toggled by shortcut keys and menu entries. I also added several status labels informing the user of which player's turn it is, which mode is active, and whether or not the last move was successful.</p>
+
+	    	<img class ="imgvid" src="site-media/screenshot04_obj2_1.png" width="640" height="360">
+	    	<br>
+	    	<img class ="imgvid" src="site-media/screenshot05_obj2_2.png" width="640" height="360">
+	    	<br>
+	    	<img class ="imgvid" src="site-media/screenshot06_obj2_3.png" width="640" height="360">
+	    	<br>
+	    	<img class ="imgvid" src="site-media/screenshot07_obj2_4.png" width="640" height="360">
+	    	<br>
+
+	    	<h3>Objective 3: Bounding Volume Hierarchy</h3>
+	    	<h4>"A BVH tree is used to hierarchically model the scene, and can be demonstrated visually."</h4>
+	    	<p>I implemented a bounding volume hierarchy (BVH) tree for the game pieces in my scene. The board is recursively divided into quadrants in the plane of the game board until each volume is a unit cube containing only a single piece. I added a mode to show off the effect of traversing the BVH tree to find a piece, which illustrates the nesting of the bounded volumes.</p>
+
+	    	<img class ="imgvid" src="site-media/screenshot08_obj3_1.png" width="640" height="360">
+	    	<br>
+	    	<img class ="imgvid" src="site-media/screenshot09_obj3_2.png" width="640" height="360">
+	    	<br>
+
+	    	<h3>Objective 4: Solid Texture Mapping</h3>
+	    	<h4>"Two-dimensional solid texture mapping is implemented for the game board tiles and game pieces."</h4>
+	    	<p>I implemented texture mapping by loading textures to a sampler in the fragment shader and applying the texture to modelling primitives using 2D texture coordinates I generated.</p>
+
+	    	<img class ="imgvid" src="site-media/screenshot10_obj4_1.png" width="640" height="360">
+	    	<br>
+
+
+	    	<h3>Objective 5: Perlin Noise</h3>
+	    	<h4>"Perlin noise is used to generate solid textures for game board tile and game pieces."</h4>
+	    	<p>I implemented classic Perlin noise using linear interpolation and varying octaves and persistence levels to generate unique textures for my scene. I varied the number of times random noise was applied and the noisiness of the signal to create different levels of smoothness and consistency in my textures.</p>
+
+	    	<img class ="imgvid" src="site-media/screenshot11_obj5_1.png" width="640" height="360">
+	    	<br>
+
+
+	    	<h3>Objective 6: Reflections</h3>
+	    	<h4>"Mirrored game pieces and game board are made to be reflective using a stencil buffer."</h4>
+	    	<p>I was unable to complete this objective due to time constraints.</p>
+	    	<br>
+
+
+	    	<h3>Objective 7: Skybox</h3>
+	    	<h4>"A skybox background is added to surround the scene."</h4>
+	    	<p>I generated a skybox by surrounding the scene in a giant cube with a tiles of a panoramic image mapped to the cube faces. I used clamping, inverted texture coordinates, and a special camera transformation matrix to ensure the skybox was rendered smoothly without seams and did not warp with viewing transformations.</p>
+
+	    	<img class ="imgvid" src="site-media/screenshot12_obj7_1.png" width="640" height="360">
+	    	<br>
+	    	<img class ="imgvid" src="site-media/screenshot13_obj7_2.png" width="640" height="360">
+	    	<br>
+
+
+	    	<h3>Objective 8: Sound, and Objective 9: Animation</h3>
+	    	<h4>"Sound accompanies game piece interactions and is synchronized with the scene."</h4>
+	    	<h4>"Movement of rigid game pieces is animated using key frames and linear interpolation. "</h4>
+	    	<p>I implemented keyframe animation using linear interpolation for the movement of all the game pieces. Game piece rotation and translation are animated with synchronized sound. The laser activation also triggers a zapping sound, and when a piece is hit by the laser an explosion sound happens.</p>
+	    	<a name="jumpToScreencast">
+	    	<p>Watch the screen cast below to see the animation and sound in action.</p>
 
 			<video class ="imgvid" width="640" height="360" controls>
 				<source src="site-media/gameplay.mp4" type="video/mp4">
 			</video>
 	    	<br>
+
+
+	    	<h3>Objective 10: Fireworks</h3>
+	    	<h4>"Animated fireworks, made using particle simulation, appear when a piece when it is hit by the beam."</h4>
+	    	<p>I was unable to complete this objective due to time constraints.</p>
+	    	<br>
+
+	    	<h2>Extra Features</h2>
+	    	<p>I added a couple of extra enhancements to my project.</p>
+
+	    	<h3>Phong Lighting Model</h3>
+	    	<p>I implemented a Phong lighting model using specular, diffuse, and ambient radiance to illuminate the scene. You can see the glossiness and sheen of the pieces in the screenshots above.</p>
+
+	    	<h3>Game Engine</h3>
+	    	<p>The game engine I implemented is quite solid, allowing for effective and bug-free game play. When pieces are moved or eliminated, the laser path is recalculated and updated for rendering the laser. I also implemented game logic that prevents users from making invalid moves: can't move pieces off the board, move pieces that aren't theres, or do moves pieces aren't allowed to do.</p>
+	    	<br>
+
+	    	<h2>Conclusions</h2>
+			<p>Overall this project was an excellent way to demonstrate my knowledge of computer graphics and to learn more about OpenGL and Qt. I applied my knowledge of modelling and the graphics pipeline to render the scene, defined a lighting model, implemented a BVH tree, added 2D solid texture mapping, and generated textures using Perlin noise. I look forward to extending this project and applying my new knowledge to future projects in computer graphics.</p>
 
 		</div> 
     </body>
