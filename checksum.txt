@@ -1,0 +1,215 @@
+Don't forget to fillout the copyright release form!
+sum is: /usr/bin/sum
+
+
+2015-07-22 14:43  Checksum for A5 for aratkins on ubuntu1204-006  Page 1
+
+
+A5:
+total 4524
+ 25172344 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 22 14:43 src/
+ 88809144 drwxrwsr-x 3 aratkins aratkinson    4096 Jul 22 14:40 textures/
+125631467 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 22 14:40 screenshots/
+101678358 drwxrwsr-x 7 aratkins aratkinson    4096 Jul 22 14:40 ./
+125631466 -rw-r--r-- 1 aratkins aratkinson 1198895 Jul 22 14:40 screenshot01.png
+ 83308556 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 22 14:40 proposal_misc/
+ 83308555 -rw-r--r-- 1 aratkins aratkinson 3370832 Jul 22 14:40 laserchess
+ 83308554 -rw-r--r-- 1 aratkins aratkinson     832 Jul 22 14:40 README
+ 83308553 -rw-r--r-- 1 aratkins aratkinson    3568 Jul 22 14:40 Demo.txt
+119449037 drwxr-sr-x 8 aratkins aratkinson    4096 Jul 20 14:35 ../
+ 25172339 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 20 14:35 sounds/
+
+A5/src:
+total 3500
+ 25172344 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 22 14:43 ./
+104117410 -rw-r--r-- 1 aratkins aratkinson    1327 Jul 22 14:40 shader.vert
+ 99745814 -rw-r--r-- 1 aratkins aratkinson    1760 Jul 22 14:40 shader.frag
+ 99745805 -rw-r--r-- 1 aratkins aratkinson    4587 Jul 22 14:40 moc_AppWindow.cpp
+ 99745804 -rw-r--r-- 1 aratkins aratkinson     659 Jul 22 14:40 main.cpp
+ 99745796 -rw-r--r-- 1 aratkins aratkinson     566 Jul 22 14:40 laserchess.pro
+ 25172347 -rw-r--r-- 1 aratkins aratkinson 3370832 Jul 22 14:40 laserchess
+ 25172346 -rw-r--r-- 1 aratkins aratkinson    6348 Jul 22 14:40 Viewer.hpp
+ 25172345 -rw-r--r-- 1 aratkins aratkinson   48052 Jul 22 14:40 Viewer.cpp
+ 25172338 -rw-r--r-- 1 aratkins aratkinson     492 Jul 22 14:40 Sound.hpp
+ 25172337 -rw-r--r-- 1 aratkins aratkinson    1070 Jul 22 14:40 Sound.cpp
+ 25172336 -rw-r--r-- 1 aratkins aratkinson    2384 Jul 22 14:40 Piece.hpp
+ 25172335 -rw-r--r-- 1 aratkins aratkinson    7389 Jul 22 14:40 Piece.cpp
+ 25172334 -rw-r--r-- 1 aratkins aratkinson   18721 Jul 22 14:40 Makefile
+ 25172333 -rw-r--r-- 1 aratkins aratkinson    1524 Jul 22 14:40 Game.hpp
+ 25172332 -rw-r--r-- 1 aratkins aratkinson   15335 Jul 22 14:40 Game.cpp
+ 25172331 -rw-r--r-- 1 aratkins aratkinson    1191 Jul 22 14:40 BVH.hpp
+ 25172330 -rw-r--r-- 1 aratkins aratkinson    5702 Jul 22 14:40 BVH.cpp
+ 25172329 -rw-r--r-- 1 aratkins aratkinson    1638 Jul 22 14:40 AppWindow.hpp
+ 25172328 -rw-r--r-- 1 aratkins aratkinson   18458 Jul 22 14:40 AppWindow.cpp
+101678358 drwxrwsr-x 7 aratkins aratkinson    4096 Jul 22 14:40 ../
+ 82659960 -rw-r--r-- 1 aratkins aratkinson    3241 Jul 20 15:27 moc_Viewer.cpp
+
+A5/textures:
+total 1204
+101344251 -rw-r--r-- 1 aratkins aratkinson   8809 Jul 22 14:40 houndstooth.png
+ 88809144 drwxrwsr-x 3 aratkins aratkinson   4096 Jul 22 14:40 ./
+101344249 -rw-r--r-- 1 aratkins aratkinson 130870 Jul 22 14:40 camo.png
+101678358 drwxrwsr-x 7 aratkins aratkinson   4096 Jul 22 14:40 ../
+ 12031581 drwxrwsr-x 2 aratkins aratkinson   4096 Jul 22 14:40 skybox/
+ 12031598 -rw-r--r-- 1 aratkins aratkinson  45557 Jul 20 14:35 wood.jpg
+ 12031597 -rw-r--r-- 1 aratkins aratkinson  23391 Jul 20 14:35 texture.png
+ 12031580 -rw-r--r-- 1 aratkins aratkinson  11906 Jul 20 14:35 neonyellow.jpg
+ 95076388 -rw-r--r-- 1 aratkins aratkinson    173 Jul 20 14:35 neongreen.png
+ 95076385 -rw-r--r-- 1 aratkins aratkinson  39766 Jul 20 14:35 lightwood.jpg
+ 88809153 -rw-r--r-- 1 aratkins aratkinson 117755 Jul 20 14:35 diamondplate.jpg
+ 88809151 -rw-r--r-- 1 aratkins aratkinson 110984 Jul 20 14:35 darkwood.jpg
+ 88809148 -rw-r--r-- 1 aratkins aratkinson 649869 Jul 20 14:35 darkred.jpg
+ 88809147 -rw-r--r-- 1 aratkins aratkinson  21783 Jul 20 14:35 darkgrey.jpg
+ 88809146 -rw-r--r-- 1 aratkins aratkinson   4067 Jul 20 14:35 black.jpg
+
+
+
+
+
+
+
+2015-07-22 14:43  Checksum for A5 for aratkins on ubuntu1204-006  Page 2
+
+
+
+A5/textures/skybox:
+total 3580
+88809144 drwxrwsr-x 3 aratkins aratkinson   4096 Jul 22 14:40 ../
+12031581 drwxrwsr-x 2 aratkins aratkinson   4096 Jul 22 14:40 ./
+12031596 -rw-r--r-- 1 aratkins aratkinson 213958 Jul 20 14:35 top.jpg
+12031594 -rw-r--r-- 1 aratkins aratkinson 692586 Jul 20 14:35 right.jpg
+12031585 -rw-r--r-- 1 aratkins aratkinson 564013 Jul 20 14:35 left.jpg
+12031584 -rw-r--r-- 1 aratkins aratkinson 572210 Jul 20 14:35 front.jpg
+12031583 -rw-r--r-- 1 aratkins aratkinson 896417 Jul 20 14:35 bottom.jpg
+12031582 -rw-r--r-- 1 aratkins aratkinson 680764 Jul 20 14:35 back.jpg
+
+A5/screenshots:
+total 19268
+125631481 -rw-r--r-- 1 aratkins aratkinson 1490830 Jul 22 14:40 screenshot14.png
+125631467 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 22 14:40 ./
+125631480 -rw-r--r-- 1 aratkins aratkinson 1614546 Jul 22 14:40 screenshot13_obj7_2.png
+125631479 -rw-r--r-- 1 aratkins aratkinson 1368598 Jul 22 14:40 screenshot12_obj7_1.png
+125631478 -rw-r--r-- 1 aratkins aratkinson  752948 Jul 22 14:40 screenshot11_obj5_1.png
+125631477 -rw-r--r-- 1 aratkins aratkinson 1333138 Jul 22 14:40 screenshot10_obj4_1.png
+125631476 -rw-r--r-- 1 aratkins aratkinson 1627641 Jul 22 14:40 screenshot09_obj3_2.png
+125631475 -rw-r--r-- 1 aratkins aratkinson 1571200 Jul 22 14:40 screenshot08_obj3_1.png
+125631474 -rw-r--r-- 1 aratkins aratkinson 1538506 Jul 22 14:40 screenshot07_obj2_4.png
+125631473 -rw-r--r-- 1 aratkins aratkinson 1179168 Jul 22 14:40 screenshot06_obj2_3.png
+125631472 -rw-r--r-- 1 aratkins aratkinson 1199382 Jul 22 14:40 screenshot05_obj2_2.png
+125631471 -rw-r--r-- 1 aratkins aratkinson 1561665 Jul 22 14:40 screenshot04_obj2_1.png
+125631470 -rw-r--r-- 1 aratkins aratkinson 1518430 Jul 22 14:40 screenshot03_obj1_2.png
+125631469 -rw-r--r-- 1 aratkins aratkinson 1632773 Jul 22 14:40 screenshot02_obj1_1.png
+125631468 -rw-r--r-- 1 aratkins aratkinson 1198895 Jul 22 14:40 screenshot01.png
+101678358 drwxrwsr-x 7 aratkins aratkinson    4096 Jul 22 14:40 ../
+
+A5/proposal_misc:
+total 14128
+101678358 drwxrwsr-x 7 aratkins aratkinson     4096 Jul 22 14:40 ../
+102017805 -rw-r--r-- 1 aratkins aratkinson 12165221 Jul 22 14:40 perlin noise.pdf
+ 83308556 drwxrwsr-x 2 aratkins aratkinson     4096 Jul 22 14:40 ./
+ 83308569 -rw-r--r-- 1 aratkins aratkinson   618556 Jul 22 14:40 moar_fire.pdf
+ 83308567 -rw-r--r-- 1 aratkins aratkinson   154959 Jul 22 14:40 cs488_project_proposal_adam_atkinson.docx
+ 83308565 -rw-r--r-- 1 aratkins aratkinson   155683 Jul 22 14:40 cs488_REVISED_project_proposal_adam_atkinson.docx
+ 83308561 -rw-r--r-- 1 aratkins aratkinson  1276517 Jul 22 14:40 Fire_TextureSplats.pdf
+
+A5/sounds:
+total 2184
+101678358 drwxrwsr-x 7 aratkins aratkinson    4096 Jul 22 14:40 ../
+ 25172343 -rw-r--r-- 1 aratkins aratkinson  427568 Jul 20 14:35 rockscrape.wav
+ 25172339 drwxrwsr-x 2 aratkins aratkinson    4096 Jul 20 14:35 ./
+ 25172342 -rw-r--r-- 1 aratkins aratkinson  171858 Jul 20 14:35 lasershot.wav
+ 25172341 -rw-r--r-- 1 aratkins aratkinson  223232 Jul 20 14:35 gameover.wav
+ 25172340 -rw-r--r-- 1 aratkins aratkinson 1376606 Jul 20 14:35 explosion.wav
+
+A5                                      
+A5/Demo.txt                             59790     4
+A5/laserchess                           07940  3292
+A5/proposal_misc                        
+A5/proposal_misc/cs488_project_proposal_adam_atkinson.docx22664   152
+A5/proposal_misc/cs488_REVISED_project_proposal_adam_atkinson.docx65478   153
+
+
+
+
+
+
+
+2015-07-22 14:43  Checksum for A5 for aratkins on ubuntu1204-006  Page 3
+
+
+A5/proposal_misc/Fire_TextureSplats.pdf 04020  1247
+A5/proposal_misc/moar_fire.pdf          60559   605
+A5/proposal_misc/perlin noise.pdf       49651 11881
+A5/README                               27941     1
+A5/screenshot01.png                     39241  1171
+A5/screenshots                          
+A5/screenshots/screenshot01.png         39241  1171
+A5/screenshots/screenshot02_obj1_1.png  61543  1595
+A5/screenshots/screenshot03_obj1_2.png  36999  1483
+A5/screenshots/screenshot04_obj2_1.png  52655  1526
+A5/screenshots/screenshot05_obj2_2.png  21757  1172
+A5/screenshots/screenshot06_obj2_3.png  52843  1152
+A5/screenshots/screenshot07_obj2_4.png  57736  1503
+A5/screenshots/screenshot08_obj3_1.png  31695  1535
+A5/screenshots/screenshot09_obj3_2.png  00549  1590
+A5/screenshots/screenshot10_obj4_1.png  19979  1302
+A5/screenshots/screenshot11_obj5_1.png  62962   736
+A5/screenshots/screenshot12_obj7_1.png  44242  1337
+A5/screenshots/screenshot13_obj7_2.png  07371  1577
+A5/screenshots/screenshot14.png         19958  1456
+A5/sounds                               
+A5/sounds/explosion.wav                 38612  1345
+A5/sounds/gameover.wav                  07373   218
+A5/sounds/lasershot.wav                 43724   168
+A5/sounds/rockscrape.wav                61039   418
+A5/src                                  
+A5/src/AppWindow.cpp                    57062    19
+A5/src/AppWindow.hpp                    02663     2
+A5/src/BVH.cpp                          23726     6
+A5/src/BVH.hpp                          05477     2
+A5/src/Game.cpp                         26370    15
+A5/src/Game.hpp                         57728     2
+A5/src/laserchess                       07940  3292
+A5/src/laserchess.pro                   14017     1
+A5/src/main.cpp                         06532     1
+A5/src/Makefile                         60495    19
+A5/src/moc_AppWindow.cpp                27136     5
+A5/src/moc_Viewer.cpp                   01410     4
+A5/src/Piece.cpp                        30069     8
+A5/src/Piece.hpp                        63795     3
+A5/src/shader.frag                      57294     2
+A5/src/shader.vert                      37079     2
+A5/src/Sound.cpp                        27575     2
+A5/src/Sound.hpp                        28723     1
+A5/src/Viewer.cpp                       50223    47
+A5/src/Viewer.hpp                       03920     7
+A5/textures                             
+A5/textures/black.jpg                   16097     4
+A5/textures/camo.png                    10883   128
+A5/textures/darkgrey.jpg                57285    22
+A5/textures/darkred.jpg                 55209   635
+A5/textures/darkwood.jpg                55886   109
+A5/textures/diamondplate.jpg            24447   115
+A5/textures/houndstooth.png             01346     9
+A5/textures/lightwood.jpg               16185    39
+A5/textures/neongreen.png               21182     1
+
+
+
+
+
+
+
+2015-07-22 14:43  Checksum for A5 for aratkins on ubuntu1204-006  Page 4
+
+
+A5/textures/neonyellow.jpg              25952    12
+A5/textures/skybox                      
+A5/textures/skybox/back.jpg             60114   665
+A5/textures/skybox/bottom.jpg           16762   876
+A5/textures/skybox/front.jpg            32228   559
+A5/textures/skybox/left.jpg             15842   551
+A5/textures/skybox/right.jpg            12762   677
+A5/textures/skybox/top.jpg              53556   209
+A5/textures/texture.png                 21342    23
+A5/textures/wood.jpg                    05105    45
